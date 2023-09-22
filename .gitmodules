@@ -1,0 +1,3 @@
+[submodule "testeteste.wiki"]
+	path = testeteste.wiki
+	url = ../../setup/testeteste.wiki.git

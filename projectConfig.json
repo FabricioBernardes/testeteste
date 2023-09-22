@@ -1,0 +1,90 @@
+{
+  "projectName": "testeteste",
+  "primaryColor": "#312f4f",
+  "secondaryColor": "#696d8c",
+  "fontBase": "montserrat",
+  "fontTitle": "montserrat",
+  "header": [
+    "header2"
+  ],
+  "footer": [
+    "footer5"
+  ],
+  "buttons": [
+    "template5"
+  ],
+  "icons": [
+    "template5"
+  ],
+  "product_block": [
+    "template5"
+  ],
+  "home_sections": [
+    "1_fullbanner",
+    "1_instagram",
+    "1_products_carousel",
+    "5_icons",
+    "5_categories",
+    "1_products_carousel",
+    "1_fullbanner",
+    "1_products_carousel",
+    "4_banners_alternados",
+    "5_seo",
+    "2_instagram"
+  ],
+  "TagDesktopBloksMumber": [
+    "3"
+  ],
+  "TagMobileBloksMumber": [
+    "1"
+  ],
+  "TagFilterDesktop": [
+    "aba"
+  ],
+  "TagPaginationMode": "true",
+  "product_components": [
+    "group_shop",
+    "banner",
+    "relacionados"
+  ],
+  "product_main": [
+    "template4"
+  ],
+  "pages": [
+    "onde_encontrar",
+    "pagina_padrao",
+    "fale_conosco",
+    "perguntas_frequentes",
+    "sobre_nos",
+    "teste"
+  ],
+  "pages_components": {
+    "onde_encontrar": [
+      "fullbanner"
+    ],
+    "pagina_padrao": [
+      "fullbanner",
+      "text_content"
+    ],
+    "fale_conosco": [
+      "formulario"
+    ],
+    "perguntas_frequentes": [
+      "fullbanner",
+      "faq"
+    ],
+    "sobre_nos": [
+      "fullbanner",
+      "text_content",
+      "side_by_side",
+      "fullbanner",
+      "depoimentos"
+    ],
+    "teste": [
+      "fullbanner",
+      "depoimentos",
+      "abas"
+    ]
+  },
+  "templateType": "template5"
+}

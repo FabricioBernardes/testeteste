@@ -1,0 +1,16 @@
+@import "../../components/price";
+
+.product-name-price {
+  margin-bottom: 2rem;
+
+  > .name-reference .reference {
+    font-size: var(--font-size-small);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  > .name-reference .name {
+    font-size: var(--font-size-title);
+    margin-bottom: 1rem;
+  }
+}

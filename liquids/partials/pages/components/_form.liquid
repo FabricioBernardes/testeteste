@@ -1,0 +1,51 @@
+<div class="form-wrapper section container">
+    <h1 class="title">{{ page.title }}</h1>
+
+    <form class="contact-form" data-webform="contact" name="form-contact" id="contact-form">
+        <fieldset form="contact-form">
+            <input type="hidden" name="key" value="{{ current_shop.subdomain }}-contato">
+            <input id="reply_to" name="reply_to" type="hidden" value="">
+
+            <input type="text" name="vnda" tabindex="-1" autocomplete="off" required />
+
+            <label class="label" for="name">
+                <span>nome *</span>
+                <input class="input" id="name" name="name" placeholder="  Seu nome completo..." required type="text">
+            </label>
+
+            <label class="label" for="email">
+                <span>e-mail *</span>
+                <input class="input" id="email" name="email" placeholder="  Seu email..." required type="email">
+            </label>
+
+            <label class="label" for="phone">
+                <span>telefone</span>
+                <input class="input" id="phone" name="phone" placeholder="  Seu telefone..." required type="tel">
+            </label>
+
+            <label class="label" for="subject">
+                <span>assunto *</span>
+                <input class="input" id="subject" name="subject" placeholder="  O assunto..." required type="tel">
+            </label>
+
+            <label class="label" for="message">
+                <span>mensagem *</span>
+                <textarea class="text-area" id="message" name="message" placeholder="  A sua mensagem..." required></textarea>
+            </label>
+
+            <div class="messages" data-msg-retorno>
+                <p class="msg-received" data-msg></p>
+                <p class="msg-received msg-success" data-msg-success>
+                    Obrigado! Enviado com sucesso.
+                </p>
+                <p class="msg-received msg-error" data-msg-error>
+                    Problema ao enviar, tente novamente.
+                </p>
+            </div>
+
+            <button aria-label="Enviar formulário de contato" class="action button-default -outlined" type="button">
+                Enviar Mensagem
+            </button>
+        </fieldset>
+    </form>
+</div>

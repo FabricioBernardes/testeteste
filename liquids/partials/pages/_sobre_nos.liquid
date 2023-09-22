@@ -1,0 +1,9 @@
+{% head %}
+   <link href="/pages/institucional/sobre_nos.css" inline rel="stylesheet" type="text/css">
+{% endhead %}
+
+{% render 'partials/pages/components/page_fullbanner', page: page, position: 'sobre_nos-fullbanner-1' background: false, type: '-custom' %}
+{% render 'partials/pages/components/content', page: page, position: 'sobre_nos-text-content' %}
+{% render 'partials/pages/components/side_by_side', page: page, position: 'sobre_nos-side-by-side' %}
+{% render 'partials/pages/components/page_fullbanner', page: page, position: 'sobre_nos-fullbanner-2' background: false, type: '-custom' %}
+{% render 'partials/pages/components/review', page: page, position: 'sobre_nos-depoimentos' %}

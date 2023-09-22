@@ -1,0 +1,16 @@
+{% load_banners position: position %}
+
+<section class="section container faq">
+  {% for banner in loaded_banners %}
+    <div class="collapse" id="{{ banner.url }}" data-collapse>
+      <h3 class="handle" open-collapse>
+        {{ banner.subtitle }}
+      </h3>
+      <div class="content-wrapper">
+        <div class="content">
+          {{ banner.description }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</section>
